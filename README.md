@@ -1,4 +1,4 @@
-# 🌟 Habit Tracker with AI
+# 🌟  Task Management Web Application
 
 A beautiful, AI-powered habit tracking application with soothing colors and advanced features.
 
@@ -38,7 +38,7 @@ Then open `http://localhost:8000/login.html` in your browser.
 ## 📁 Project Structure
 
 ```
-habit-tracker/
+task management web application/
 ├── index.html          # Main application
 ├── login.html          # Login page
 ├── signup.html         # Sign up page
