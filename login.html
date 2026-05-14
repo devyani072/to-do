@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="auth-container">
+    <div class="auth-card">
+      <div class="auth-header">
+        <h1>🌟 Welcome Back</h1>
+        <p>Sign in to your Habit Tracker account</p>
+        <div id="authStatus" style="margin-top: 10px; font-size: 14px; color: #666;"></div>
+      </div>
+
+      <form id="loginForm" class="auth-form">
+        <div class="form-group">
+          <label for="loginEmail">Email</label>
+          <input type="email" id="loginEmail" required placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" required placeholder="Enter your password">
+        </div>
+
+        <button type="submit" class="auth-btn">Sign In</button>
+        <button type="button" id="testLogin" class="auth-btn" style="background: #27ae60; margin-top: 10px;">Test Login</button>
+        <button type="button" id="demoMode" class="auth-btn" style="background: #f39c12; margin-top: 10px;">Demo Mode</button>
+      </form>
+
+      <div class="auth-links">
+        <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+        <p><a href="#" id="forgotPassword">Forgot password?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+</html>
